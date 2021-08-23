@@ -1,0 +1,45 @@
+using namespace std;
+#include<iostream>
+#include<string>
+ int main(){
+        char inp, y,n,Y,N;
+        string name, gtkey;
+         int age;
+        cout<<"\t\t WELCOME TO CHATBOX \n\n";
+        cout<<"\n to countinue the program type 'y'and to End the program type 'N' \n";
+        cout<<"...>>>";
+        cin>>inp;
+
+        if(inp=='y'||'Y'==inp)
+        {
+              cout<<"\n Welcome....!!!";
+         }
+
+                  else
+        {        cout<<" \n thanks for coming!!";
+                return 0;
+        }
+      system("Cls");
+      if(gtkey != "bi");
+{     cout<<"\t HELLO USER \n";
+      cout<<"hello...what is your name \n";
+      cin>>gtkey;
+      cout<<"How are you..?\n";
+       cin>>gtkey;
+       cout<<"where are you from?\n";
+       cin>>gtkey;
+       cout<<"What is your education..?\n";
+        cin>>gtkey;
+        cout<<"which domain do you refer to?\n";
+         cin>>gtkey;
+        cout<<"ohh...nice\n";
+       cin>>gtkey;
+       cout<<"ohk....now i have to leave.. ! \n";
+        cin>>gtkey;
+       cout<<"byee..nice to meet you!!\n";
+       cin>>gtkey;
+}
+return 0;
+
+
+}
